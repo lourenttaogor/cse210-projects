@@ -38,12 +38,12 @@ class Program
         }
 
         float average = ((float)sum) / numbers.Count;
-        int sorted = numbers[numbers.Count - 1];
+        int sorted = numbers.Count - 1;
 
 
 
         Console.WriteLine($"The sum is: {sum}");
-        Console.WriteLine($"The average is: {avarage}");
+        Console.WriteLine($"The average is: {average}");
         Console.WriteLine($"The largest number is: {max}");
         Console.WriteLine($"The smallest positive number is {smallPositive}");
         Console.WriteLine($"The sorted list is: {sorted}");
